@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gold;
+    padding: 6%;
+    
+}
+
+header {
+    background-color: gold;
+    font-family: Roboto;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.margenes {
+
+    margin-bottom: 5%;
+
+}
+
+.titulo {
+
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-bottom: 10%;
+    
+
+
+}
+
+

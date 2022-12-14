@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/formularioregister.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 class="titulo">¡CREA TU CUENTA!</h1>
+
+
+    <form class="formulario" action="/registro" method="post"> 
+
+        <label class="margenes" for="nombre"> Nombre y Apellido: 
+            <input type="text" name="Nombre y Apellido" id="nombre">
+            </label>
+
+        <label class="margenes" for="user"> Nombre de usuario: 
+            <input type="text" name="Nombre de usuario" id="user">
+        </label>
+
+        <label class="margenes" for="date"> Fecha de nacimiento: 
+            <input type="date" name="Fecha" id="date">
+        </label>
+
+        <label class="margenes" for="domicilio"> Domicilio: 
+            <input type="text" name="domicilio" id="domicilio">
+        </label>
+
+        <label class="margenes" for="perfil"> ¿Cual es tu perfil?
+            <input type="radio" name="perfil" value="vendedor" id="perfil"> Vendedor </input>
+            <input type="radio" name="perfil" value="comprador" id="perfil"> Comprador </input>
+        </label>
+
+        <label class="margenes" for="interes"> Categorias de interes:
+            <input type="checkbox" name="interes" value="electro" id="interes"> Electro </input>
+            <input type="checkbox" name="interes" value="moda" id="interes"> Moda </input>
+            <input type="checkbox" name="interes" value="hogar" id="interes"> Hogar </input>
+            <input type="checkbox" name="interes" value="jugueteria" id="interes"> Jugueteria </input>
+            <input type="checkbox" name="interes" value="vida sana" id="interes"> Vida Sana </input>
+        </label>
+
+        <label class="margenes" for="foto"> Foto de usuario 
+            <input type="file" name="avatar" id="foto">
+
+        </label>
+
+        <label class="margenes" for="contraseña"> Contraseña: 
+            <input type="password" name="contraseña" id="contraseña" required>
+        </label>
+
+        <label class="margenes" for="contraseña">Confirmar contraseña: 
+            <input type="password" name="contraseña" id="contraseña" required>
+        </label>
+
+        <label class="margenes" for="enviar"> Enviar
+
+            <input href="./home.html" type="submit" value="enviar" id="enviar">
+        </label>
+
+        <label class="margenes" for="borrar"> Borrar todo 
+
+            <input type="reset" value="borrar" id="borrar">
+        </label>
+
+
+        
+
+
+        
+        
+    
+        
+    
+
+
+
+
+        </label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>

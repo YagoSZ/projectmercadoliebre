@@ -1,0 +1,441 @@
+body {
+    background-color: rgb(205, 205, 205);
+    
+}
+
+header {
+    background-color: gold;
+    font-family: Roboto;
+}
+
+
+footer {
+    background-color: white;
+    width: 100%;
+    
+    margin: auto;
+}
+.partesFooter {
+    text-align: center;
+    padding: 0 10px;
+}
+.partesFooter h4{
+    margin-top: 0px ;
+    margin-bottom: -10px;
+}
+
+.fa-credit-card{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    transition: all 450ms;
+    padding-top: 2%;
+}
+.fa-gift{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    transition: all 450ms;
+    padding-top: 2%;
+}
+.fa-user-shield{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    transition: all 450ms;
+    padding-top: 2%;
+}
+.copyright{
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    padding-top: 3%; 
+}
+
+.textoFooter {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.paddingFooter {
+
+    padding-bottom: 6%;
+}
+
+p { font-size: 12px;}
+
+.icon {
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.titulares { 
+    
+    font-size: 24px;
+    padding: 3%;
+
+}
+
+.padding {
+
+    margin-left: 65%;
+    border: 1px solid green;
+    border-radius: 100%;
+}
+
+
+
+.precios {
+    
+    flex-grow: 1;
+    font-size: 22px;
+    font-style: bold;
+    margin: 0px;
+}
+
+.descuentos { 
+    
+    flex-grow: 30;
+    font-size: 16px;
+    color: green;
+    margin: 0px;
+   
+    
+
+}
+
+
+.descripciones:hover { 
+    font-size: 16px;
+    color: grey;
+    padding-left: 4%;
+    padding: 2%;
+
+}
+
+.burger-menu { 
+    text-align: center;
+    background-size: cover;
+    font-size: 40px;
+    color: blue;
+}
+
+.centrado { 
+
+    display: flex;
+    padding-top: 3%;
+    text-align: center;
+    justify-content: center;
+    
+
+
+}
+
+.conteiner {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoml {
+
+    height: 40%;
+    width: 45%;
+
+
+}
+
+
+.flexearlo {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6%;
+    padding-left: 2%;
+}
+
+.contenedor {
+    font-size: 98%;
+    background-size: auto;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border: 5px;
+    margin: auto;
+}
+
+main{
+    background-color: #ebebeb;
+}
+.contenedor-main{
+    max-width: 1200px;
+    width: 100vw;
+    padding: 15px;
+    margin: auto;
+    margin-top: -4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sub-main{
+    display: block;
+    background-color: white;
+    width: 100%;
+    border: solid 1px #ebebeb;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    transition: all 450ms;
+}
+.sub-main-descripcion{
+    position: relative;
+    padding: 0 15px 0 15px;
+}
+.productos {
+    width: 100%;
+    border-bottom: solid 1px #ebebeb;
+    margin: auto;
+    border-radius: 10px;
+    transition: all 450ms;
+}
+.cuerpos-de-texto {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+.titulares {
+    font-size: 24px;
+    width: 95%;
+    color: #666;
+}
+.precios{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.descuentos {
+    font-size: 18px;
+    color: #39b54a;
+    font-style: normal;
+    margin-left: 10%;
+}
+.descripciones{
+    display: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #666;
+    transition: all 450ms;
+}
+.destacado {
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
+.fa-truck{
+    display: block;
+    font-size: 16px;
+    color: #39b54a;
+    border: solid 1px #39b54a;
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    position: absolute;
+    right: 20px;
+    top: -53px;
+    transition: all 450ms;
+}
+
+.articulos {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.flex-con {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.bordes {
+
+    width: 100%;
+    height: 80%;
+    border-bottom: 1px solid #ebebeb;
+}
+
+@media (min-width: 361px) and (max-width: 768px) {
+
+    .descripciones {
+
+       color: white;
+       padding: 3%;
+
+    }
+
+    .no-aparecer {
+
+        display: none;
+    }
+}
+
+.burger-menu {
+    display: none;
+}
+.contenedor-header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 40%;
+}
+.destacado {
+    text-align: right;
+    width: 30%;
+    font-size: 11px;
+}
+.buscador {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.buscador-input {
+    font-size: 1em;
+}
+.listas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.listas ul {
+    display: flex;
+}
+.listas li {
+    margin: 0 5px;
+    font-size: 11px;
+}
+.listas a {
+    font-size: 11px;
+}
+.sub-main {
+    width: 45%;
+}
+.sub-main:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.sub-main:hover .descripciones{
+    display: block;
+}
+.sub-main:hover .fa-truck{
+    box-shadow: 0px 0px 10px #39b54a;
+    transform: rotateX(360deg);
+}
+
+
+@media (min-width: 769px) {
+
+
+    .articulos {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .bordes {
+        width: 600px;
+        height: 600px;
+    }
+
+    .todoFooter {
+        display: flex;
+    }
+
+    .logoml {
+        width: 50%;
+        height: 50%;
+    }
+
+    .burger-menu {
+
+        display: none;
+    }
+
+    .logo {
+        width: 250px;
+    }
+    .contendor-header, .listas {
+        max-width: 1200px;
+        margin: auto
+    }
+    .contendor-header{
+        align-items: center;
+    }
+    .sub-main {
+        width: 20%;
+    }
+    .destacado {
+        font-size: 18px;
+    }
+    .listas {
+        margin-top: 30px;
+    }
+    .listas li {
+        margin: 0 10px;
+        font-size: 19px;
+    }
+    .listas a {
+        font-size: 19px;
+    }
+    .contenedor-footer {
+        display: flex;
+    }
+    .fa-credit-card:hover, .fa-gift:hover, .fa-user-shield:hover{
+        color:#0022AA;
+    }
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+
+    main section article i{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        }
+
+
+
+
+
+
+        
