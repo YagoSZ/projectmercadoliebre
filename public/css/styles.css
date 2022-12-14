@@ -299,7 +299,8 @@ main{
 }
 
 .burger-menu {
-    display: none;
+    display: flex;
+    justify-content: center;
 }
 .contenedor-header{
     display: flex;
